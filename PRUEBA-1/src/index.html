@@ -1,0 +1,149 @@
+    <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link href="./output.css" rel="stylesheet">
+    </head>
+
+    <body class="">
+
+    <section class="py-6 px-4 edit:w-[730px] mx-auto container">
+
+        <!-- Inicio header -->
+        <div class="flex justify-between mb-6 ">
+
+            <h3 class="text-very-dark-blue font-extrabold text-xl ">Notifications <span class="bg-blue text-white w-8 h-[25px] inline-block text-center rounded-md number-notification">3</span></h3>
+
+            <p class="mark text-dark-grayish-blue text-sm font-medium cursor-pointer hover:text-blue" id="mark-all">Mark all as read</p>
+        </div>
+        <!-- Fin header -->
+
+        <!-- inicio de post -->
+        <div class="post card">
+            <img src="../assets/images/avatar-mark-webber.webp" alt="" class="w-[39px] h-[39px] ">
+            
+            <div class="">
+                <p>
+                    <span class="font-bold text-very-dark-blue hover:text-blue ">Mark Webber</span> 
+                    <span>reacted to your recent post </span> 
+                    <span class="font-bold hover:text-blue "> My first tournament today!</span> 
+                    <span class="status not-read"></span>
+                </p>
+                <p class="text-grayish-blue text-sm font-medium ">1m ago</p>
+            </div>
+
+        </div>
+
+        <div class="card post">
+            <img src="../assets/images/avatar-angela-gray.webp" alt="" class="w-[39px] h-[39px] ">
+            
+            <div class="">
+                <p>
+                    <span class="font-bold text-very-dark-blue hover:text-blue ">Angela Gray</span> 
+                    <span>followed you </span>
+                    <span></span>
+                    <span class="status not-read"></span>
+                </p>
+                <p class="text-grayish-blue text-sm font-medium ">1m ago</p>
+            </div>
+        </div>
+
+        <div class="post card">
+            <img src="../assets/images/avatar-jacob-thompson.webp" alt="" class="w-[39px] h-[39px] ">
+            
+            <div class="">
+                <p>
+                    <span class="font-bold text-very-dark-blue hover:text-blue ">Jacob Thompson</span> 
+                    <span>Jacob Thompson has joined your group </span>
+                    <span class="group text-blue font-bold "> Chess Club</span>
+                    <span class="status not-read"></span>
+                </p>
+                <p class="text-grayish-blue text-sm font-medium ">1day ago</p>
+            </div>
+
+        </div>
+
+        <div class="post card hover:bg-very-light-grayish-blue">
+            <img src="../assets/images/avatar-rizky-hasanuddin.webp" alt="" class="w-[39px] h-[39px] ">
+            
+            <div class="">
+                <p>
+                    <span class="font-bold text-very-dark-blue hover:text-blue ">Rizky Hasanuddin</span> 
+                    <span>sent you a private message </span> 
+                    <span></span>
+                    <span class="status not-read"></span>
+                </p>
+                <p class="text-grayish-blue text-sm font-medium ">5 days ago</p>
+
+                <div class="message-container border border-light-grayish-blue-2 rounded p-4 mt-3 hover:bg-light-grayish-blue-1 ">
+                    <p class="message ">
+                        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+                        I'm already having lots of fun and improving my game.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="post card relative">
+            <img src="../assets/images/avatar-kimberly-smith.webp" alt="" class="w-[39px] h-[39px] ">
+            
+            <div class="">
+                <p>
+                    <span class="font-bold text-very-dark-blue hover:text-blue ">Kimberly Smith</span> 
+                    <span>commented on your picture </span> 
+                    <span></span>
+                    <span class="status not-read"></span>
+                </p>
+                <p class="text-grayish-blue text-sm font-medium ">1 week ago</p>
+            </div>
+
+            <img src="../assets/images/image-chess.webp" alt="" class="picture w-10 h-10 absolute right-4">
+        </div>
+
+        <div class="post card">
+            <img src="../assets/images/avatar-nathan-peterson.webp" alt="" class="w-[39px] h-[39px] ">
+            
+            <div class="">
+                <p>
+                    <span class="font-bold text-very-dark-blue hover:text-blue ">Nathan Peterson</span> 
+                    <span>reacted to your recent post </span> 
+                    <span class="font-bold hover:text-blue "> 5 end-game strategies to increase your win rate</span> 
+                    <span class="status not-read"></span>
+                </p>
+                <p class="text-grayish-blue text-sm font-medium ">2 weeks ago</p>
+            </div>
+
+        </div>
+
+        <div class="post card">
+            <img src="../assets/images/avatar-anna-kim.webp" alt="" class="w-[39px] h-[39px] ">
+            
+            <div class="">
+                <p>
+                    <span class="font-bold text-very-dark-blue hover:text-blue ">Anna Kim</span> 
+                    <span>left the group </span> 
+                    <span class="group text-blue font-bold "> Chess Club</span> 
+                    <span class="status not-read"></span>
+                </p>
+                <p class="text-grayish-blue text-sm font-medium ">2 weeks ago</p>
+            </div>
+
+        </div>
+        <!-- fin de post -->
+    
+    </section>
+
+    <div class="text-[11px] text-center mb-5 ">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-[hsl(228,45%,44%)]">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/anderson-sanch" target="_blank" class="text-[hsl(228,45%,44%)]">Anderson Sanchez</a>.
+    </div>
+
+    <script src="main.js"></script>
+    </body>
+
+    </html>

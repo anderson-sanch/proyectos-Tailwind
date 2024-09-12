@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Plus-Jakarta-Sans';
+    src: url('../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+@layer components {
+    .not-read{
+        @apply  w-2 h-2 bg-red inline-block rounded-full ml-2
+    }
+    .post{
+        @apply bg-very-light-grayish-blue rounded-lg flex gap-[13px] p-4 text-sm cursor-pointer text-dark-grayish-blue mb-3 mx-auto min-w-[343px] hover:bg-light-grayish-blue-1 edit:text-base 
+    }
+}
